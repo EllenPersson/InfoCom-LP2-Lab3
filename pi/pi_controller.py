@@ -2,13 +2,18 @@ import math
 import requests
 import argparse
 
+
 #Write you own function that moves the dron from one place to another 
 #the function returns the drone's current location while moving
 #====================================================================================================
 def your_function():
     longitude = 13.21008
     latitude = 55.71106
+    current_coords[0] = from_coords[0]
+    current_coords[1] = from_coords[1]
+    
     return (longitude, latitude)
+    
 #====================================================================================================
 
 
